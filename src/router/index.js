@@ -4,8 +4,8 @@ import AboutView from '../views/AboutView.vue'
 
 const routes = [
   {
-    path: '/home',
-    name: 'home2',
+    path: '/all',
+    name: 'all',
     component: HomeView, AboutView
   },
   {
@@ -21,7 +21,7 @@ const routes = [
 
 const router = createRouter({
   // base: window.__POWERED_BY_QIANKUN__ ? '/code' : '/', // 重点4：qiankun进入子应用时，返回true,
-  history: createWebHistory(window.__POWERED_BY_QIANKUN__ ? '/code2' : '/'),
+  history: createWebHistory(window.__POWERED_BY_QIANKUN__ ? '/lateorder' : '/'),
   // history: createWebHistory(process.env.BASE_URL),
   routes
 })
