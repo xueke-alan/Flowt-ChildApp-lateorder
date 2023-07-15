@@ -1,3 +1,29 @@
 {
-  "a": 1
+  "name": "flowt_miro_LateOrder",
+  "title": "迟单管理",
+  "baseUrl": "LateOrder",
+  "group": "测试",
+  "children": [
+    {
+      "path": "user",
+      "meta": {
+        "title": "账户管理",
+        "iconName": "Guest24Regular"
+      }
+    },
+    {
+      "path": "about",
+      "meta": {
+        "title": "角色管理",
+        "iconName": "PersonTag24Regular"
+      }
+    },
+    {
+      "path": "home",
+      "meta": {
+        "title": "权限管理",
+        "iconName": "KeyMultiple20Regular"
+      }
+    }
+  ]
 }
